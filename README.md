@@ -1,3 +1,0 @@
-# stormnet-hometasks
-
-Readme
