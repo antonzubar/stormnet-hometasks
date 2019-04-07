@@ -1,15 +1,24 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('gotham-black-webfont.woff');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: 'Lato', sans-serif;
 }
 
-.container {
+.container-header {
     width: 1170px;
     margin: 0 auto;
     height: 93px;
 }
 
-.container header {
+.container-header header {
     padding-top: 22px;
 }
 
@@ -47,4 +56,226 @@ body {
     text-decoration: none;
     color: #868686;
     font-size: 14px;
+}
+
+#home {
+    height: 590px;
+    background-color: #709dca;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Gotham', sans-serif;
+    margin: 0;
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    padding-top: 110px;
+}
+
+#home .container p {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 35px;
+
+}
+
+#home .container form {
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    margin: 0 auto;
+    width: 1110px;
+}
+
+.main-form__input-holder, .main-form__button-holder {
+    position: relative;
+    display: inline-block;
+}
+
+.main-form__input__field {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    width: 280px;
+    height: 46px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    padding: 15px 38px;
+    box-sizing: border-box;
+    outline: none;
+    transition: border 0.2s linear;
+    margin-right: 10px;
+}
+
+/*noinspection CssInvalidPseudoSelector*/
+.main-form__input__field::placeholder {
+    color: #a9a9a9;
+}
+
+.main-form__input__field:focus {
+    border: 2px solid #ffbb42;
+}
+
+.main-form__button {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffbb42;
+    border-radius: 4px;
+    color: #fff;
+    width: 210px;
+    height: 46px;
+    border: none;
+    transition: background-color 0.2s linear;
+}
+
+.main-form__button:hover {
+    background-color: #ffd43f;
+}
+
+#login-icon {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    fill: #6e6e6e;
+}
+
+#mail-icon {
+    position: absolute;
+    top: 17px;
+    left: 15px;
+    fill: #6e6e6e;
+}
+
+#phone-icon {
+    position: absolute;
+    top: 17px;
+    left: 15px;
+    fill: #6e6e6e;
+}
+
+.main-form__input__field:focus + #login-icon {
+    fill: #ffbb42;
+}
+
+.main-form__input__field:focus + #mail-icon {
+    fill: #ffbb42;
+}
+
+.main-form__input__field:focus + #phone-icon {
+    fill: #ffbb42;
+}
+
+#laptop-holder {
+    position: relative;
+}
+
+#laptop-holder {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -324px;
+    margin-top: -58px;
+}
+
+#service {
+    height: 920px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+#service .container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+#service .container h2 {
+    margin: 0;
+    text-align: center;
+    font-family: 'Gotham', sans-serif;
+    font-size: 30px;
+    padding-top: 200px;
+    color: #394b50;
+}
+
+#headline-text {
+    color: #394b50;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+}
+
+.list-container {
+    margin-top: 92px;
+}
+
+.list-container__list-item {
+    width: 583px;
+    display: inline-block;
+    padding-left: 82px;
+    box-sizing: border-box;
+    position: relative;
+    vertical-align: top;
+    margin-bottom: 40px;
+}
+
+.list-container__list-item:nth-child(odd) {
+    padding-right: 60px;
+}
+
+.list-container__list-image {
+    position: absolute;
+    top: 17px;
+    left: 0;
+}
+
+.list-container__list-item:last-child .list-container__list-image {
+    left: 20px;
+}
+
+.list-container__list-item h3 {
+    text-transform: uppercase;
+    color: #394b50;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.list-container__list-item .list-container__paragraph {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #7b7b7b;
+}
+
+#about-us {
+    height: 623px;
+    background-color: #ffc155;
+    box-sizing: border-box;
+}
+
+#about-us .container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+#about-us .container div {
+    width: 49%;
+    display: inline-block;
+}
+
+#about-us .container div:first-child {
+    float: left;
+}
+
+#about-us .container div:first-child img {
+    margin-left: -63%;
+}
+
+#pricing-table {
+    height: 900px;
+    margin: 0;
+    background-color: #e7edf3;
 }
