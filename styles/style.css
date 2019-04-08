@@ -321,7 +321,7 @@ h2 {
 
 #pricing-table .container {
     text-align: center;
-    width: 1170px;
+    width: 1200px;
     margin: 0 auto;
 }
 #pricing-table .container h2 {
@@ -329,12 +329,18 @@ h2 {
 }
 #pricing-table .container .headline-text {
     font-size: 18px;
+    margin-bottom: 50px;
+}
+
+#plan-card-container {
+    position: relative;
 }
 
 .plan-card {
     display: inline-block;
-    width: 391px;
-    height: 441px;
+    position: absolute;
+    width: 390px;
+    height: 440px;
     background-color: #fff;
     text-transform: uppercase;
     border: 1px solid #ccd5df;
@@ -342,10 +348,31 @@ h2 {
     padding: 55px 30px;
     box-sizing: border-box;
     transition: background-color 0.1s linear;
+    margin: 30px 0;
+}
+
+#plan-card-container .plan-card:nth-child(1) {
+    top: 0;
+    left: 0;
+}
+
+#plan-card-container .plan-card:nth-child(2) {
+    top: 0;
+    left: 394px;
+}
+
+#plan-card-container .plan-card:nth-child(3) {
+    top: 0;
+    left: 788px;
 }
 
 .plan-card:hover {
     background-color: #709dca;
+    width: 394px;
+    height: 501px;
+    margin-top: 0;
+    margin-left: -2px;
+    padding-top: 85px;
 }
 
 .plan-card:hover .plan-card__plan-headline {
