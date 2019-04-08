@@ -196,6 +196,7 @@ h2 {
     font-family: 'Gotham', sans-serif;
     font-size: 30px;
     color: #394b50;
+    text-transform: uppercase;
 }
 
 #service .container h2 {
@@ -210,6 +211,7 @@ h2 {
     font-weight: 400;
     font-size: 16px;
     margin: 0;
+    font-weight: 300;
 }
 
 .list-container {
@@ -445,4 +447,69 @@ h2 {
 
 .plan-card__plan-button {
     width: 131px;
+}
+
+#how-it-works {
+    height: 860px;
+    background-color: #fff;
+}
+
+#how-it-works .container {
+    text-align: center;
+}
+
+#how-it-works .container h2 {
+    padding-top: 150px;
+}
+
+#how-it-works .container .headline-text {
+    font-size: 18px;
+    margin-bottom: 105px;
+}
+
+.step-card {
+    width: 290px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 32px;
+    position: relative;
+}
+
+.step-card__step-number {
+    margin-top: 80px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.step-card__step-description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #7b7b7b;
+}
+
+.step-card__step-arrow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -32px;
+    margin-left: 230px;
+}
+
+.step-card:nth-child(even) .step-card__step-arrow {
+    top: 102px;
+    left: 0;
+    margin-left: 230px;
+    transform: rotate(180deg);
+}
+
+.step-card:nth-child(6) .step-card__step-arrow {
+    display: none;
+}
+
+#how-it-works .container button {
+    display: block;
+    margin: 95px auto 0;
+    width: 165px;
 }
