@@ -9,6 +9,7 @@ html {
 
 body {
     margin: 0;
+    padding: 0;
     font-family: 'Lato', sans-serif;
 }
 
@@ -102,7 +103,7 @@ h1 {
     width: 280px;
     height: 46px;
     border: 2px solid transparent;
-    border-radius: 4px;
+    border-radius: 2px;
     padding: 15px 38px;
     box-sizing: border-box;
     outline: none;
@@ -122,7 +123,7 @@ h1 {
 .main-form__button {
     font-family: 'Open Sans', sans-serif;
     background-color: #ffbb42;
-    border-radius: 4px;
+    border-radius: 2px;
     color: #fff;
     width: 210px;
     height: 46px;
@@ -336,6 +337,8 @@ h2 {
 
 #plan-card-container {
     position: relative;
+    margin: 0 auto;
+    left: 7px;
 }
 
 .plan-card {
@@ -517,4 +520,261 @@ h2 {
 #happy-clients {
     height: 910px;
     background-color: #ffc155;
+}
+
+#happy-clients .container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+#happy-clients .container h2 {
+    text-align: center;
+    color: #fff;
+    padding-top: 130px;
+}
+
+#happy-clients .container .headline-text {
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+
+.review-card {
+    display: inline-block;
+    width: 565px;
+    height: 241px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    position: relative;
+    padding: 45px 25px 50px 160px;
+    box-sizing: border-box;
+}
+
+.review-card:nth-child(odd) {
+    margin-right: 35px;
+}
+
+.review-card__author-image {
+    position: absolute;
+    margin-left: -128px;
+}
+
+.review-card__review-quote {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    color: #7b7b7b;
+    margin-left: 24px;
+    margin-top: 10px;
+    margin-right: 12px;
+    position: relative;
+}
+
+.review-card__review-quote::before {
+    font-size: 25px;
+    position: absolute;
+    content: "❝";
+    margin-left: -22px;
+    margin-top: -13px;
+}
+
+.review-card__review-quote::after {
+    font-size: 25px;
+    position: absolute;
+    content: "❞";
+    margin-left: 15px;
+}
+
+.review-card__review-author {
+    font-family: Lato, sans-serif;
+    text-transform: uppercase;
+    color: #f6772c;
+    font-size: 14px;
+    margin-left: 24px;
+}
+
+.review-card__author-position {
+    color: #99a9ae;
+}
+
+#contact-us {
+    height: 950px;
+    background-color: #fff;
+}
+
+#contact-us .container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+#contact-us .container h2 {
+    padding-top: 150px;
+    text-align: center;
+}
+
+#contact-us .container .headline-text {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.secondary-form {
+    display: block;
+    margin: 0 auto;
+    width: 941px;
+}
+
+.secondary-form .main-form__input__field {
+    border: 1px solid #cbcbcb;
+    width: 308px;
+    transition: border 0.2s linear;
+    border-radius: 2px;
+}
+
+.secondary-form .main-form__input__field:focus {
+    border: 1px solid #ffbb42;
+}
+
+.secondary-form .main-form__input-holder:nth-child(1) .main-form__input__field {
+    width: 308px;
+}
+
+.secondary-form .main-form__input-holder:nth-child(2) .main-form__input__field {
+    width: 388px;
+}
+
+.secondary-form .main-form__button-holder .main-form__button {
+    width: 218px;
+    border-radius: 2px;
+}
+
+#contact-us-container {
+    display: block;
+    margin: 50px auto 0;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid #cbcbcb;
+    padding-bottom: 60px;
+}
+
+#contact-us-container #pin-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -239px;
+    margin-left: -143px;
+}
+
+#pin-image div {
+    font-family: "Open Sans", sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -73px;
+    margin-left: -72px;
+    font-size: 13px;
+}
+
+#pin-image > div > span {
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+
+#pin-image > div ul {
+    list-style-type: none;
+    color: #aeb7ba;
+    padding: 0;
+}
+
+#pin-image > div ul li {
+    margin-bottom: 4px;
+}
+
+#pin-image > div ul li:last-child {
+    color: #ffbb42;
+}
+
+#pin-image > img:nth-child(3) {
+    position: absolute;
+    margin-left: -25px;
+}
+
+#footer {
+    height: 280px;
+}
+
+#footer .container-footer footer ul.menu {
+    text-align: center;
+    padding: 70px 0 0;
+    float: none;
+}
+
+#footer .container-footer footer ul.menu li {
+    padding: 8px 14px;
+}
+
+#footer .container-footer footer ul.menu li .menu__link {
+    font-size: 13px;
+    color: #394b50;
+}
+
+#footer p {
+    text-align: center;
+    position: relative;
+    font-size: 22px;
+    color: #394b50;
+}
+
+#footer svg {
+    position: relative;
+    fill: #394b50;
+    top: 0;
+    left: 0;
+    margin-bottom: -1px;
+}
+
+.social-networks {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+.social-networks li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+#twitter, #facebook, .google, .linkedin {
+    fill: #709dca;
+}
+
+.social-networks li:hover a #twitter {
+    fill: #ffc155;
+}
+
+.social-networks li:hover a #facebook {
+    fill: #ffc155;
+}
+
+.social-networks li:hover a .google {
+    fill: #ffc155;
+}
+
+.social-networks li:hover a .linkedin {
+    fill: #ffc155;
+}
+
+#copyright {
+    height: 45px;
+    background-color: #709dca;
+    margin-top: 39px;
+    text-align: center;
+}
+
+#copyright p {
+    padding-top: 13px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    color: #fff;
 }
