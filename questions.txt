@@ -1,1 +1,2 @@
 1. About us - how to work with design and image?
+2. What is easier for browser - draw div with background color, round it - or upload image?
