@@ -336,6 +336,8 @@ h2 {
 
 #plan-card-container {
     position: relative;
+    margin: 0 auto;
+    left: 7px;
 }
 
 .plan-card {
@@ -517,4 +519,122 @@ h2 {
 #happy-clients {
     height: 910px;
     background-color: #ffc155;
+}
+
+#happy-clients .container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+#happy-clients .container h2 {
+    text-align: center;
+    color: #fff;
+    padding-top: 130px;
+}
+
+#happy-clients .container .headline-text {
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+
+.review-card {
+    display: inline-block;
+    width: 565px;
+    height: 241px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    position: relative;
+    padding: 45px 25px 50px 160px;
+    box-sizing: border-box;
+}
+
+.review-card:nth-child(odd) {
+    margin-right: 35px;
+}
+
+.review-card__author-image {
+    position: absolute;
+    margin-left: -128px;
+}
+
+.review-card__review-quote {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    color: #7b7b7b;
+    margin-left: 24px;
+    margin-top: 10px;
+    margin-right: 12px;
+    position: relative;
+}
+
+.review-card__review-quote::before {
+    font-size: 25px;
+    position: absolute;
+    content: "❝";
+    margin-left: -22px;
+    margin-top: -13px;
+}
+
+.review-card__review-quote::after {
+    font-size: 25px;
+    position: absolute;
+    content: "❞";
+    margin-left: 15px;
+}
+
+.review-card__review-author {
+    font-family: Lato, sans-serif;
+    text-transform: uppercase;
+    color: #f6772c;
+    font-size: 14px;
+    margin-left: 24px;
+}
+
+.review-card__author-position {
+    color: #99a9ae;
+}
+
+#contact-us {
+    height: 1160px;
+    background-color: #fff;
+}
+
+#contact-us .container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+#contact-us .container h2 {
+    padding-top: 150px;
+    text-align: center;
+}
+
+#contact-us .container .headline-text {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.secondary-form {
+    display: block;
+    margin: 0 auto;
+    width: 941px;
+}
+
+.secondary-form .main-form__input__field {
+    border: 1px solid #cbcbcb;
+    width: 308px;
+}
+
+.secondary-form .main-form__input-holder:nth-child(1) .main-form__input__field {
+    width: 308px;
+}
+
+.secondary-form .main-form__input-holder:nth-child(2) .main-form__input__field {
+    width: 388px;
+}
+
+.secondary-form .main-form__button-holder .main-form__button {
+    width: 218px;
 }
