@@ -16,7 +16,6 @@ body {
 .container-header {
     width: 1170px;
     margin: 0 auto;
-    height: 93px;
 }
 
 .container-header header {
@@ -25,6 +24,7 @@ body {
 
 #top-section {
     background-color: #fff;
+    padding-bottom: 20px;
 }
 
 #header img {
@@ -60,9 +60,9 @@ body {
 }
 
 #home {
-    height: 590px;
     background-color: #709dca;
     box-sizing: border-box;
+    position: relative;
 }
 
 h1 {
@@ -90,6 +90,7 @@ h1 {
     display: block;
     margin: 0 auto;
     width: 1110px;
+    padding-bottom: 328px;
 }
 
 .main-form__input-holder, .main-form__button-holder {
@@ -171,10 +172,9 @@ h1 {
 
 #laptop-holder {
     position: absolute;
-    top: 50%;
     left: 50%;
     margin-left: -324px;
-    margin-top: -58px;
+    bottom: -118px;
 }
 
 .gallery-image {
@@ -218,7 +218,6 @@ h1 {
 }
 
 #service {
-    height: 920px;
     background-color: #fff;
     box-sizing: border-box;
 }
@@ -226,6 +225,7 @@ h1 {
 #service .container {
     width: 1170px;
     margin: 0 auto;
+    padding-bottom: 73px;
 }
 
 h2 {
@@ -293,7 +293,6 @@ h2 {
 }
 
 #about-us {
-    height: 623px;
     background-color: #ffc155;
     box-sizing: border-box;
 }
@@ -301,6 +300,7 @@ h2 {
 #about-us .container {
     width: 1170px;
     margin: 0 auto;
+    padding-bottom: 207px;
 }
 
 #about-us .container div {
@@ -309,7 +309,6 @@ h2 {
 }
 
 #about-us .container div:first-child {
-    height: 623px;
     float: left;
     position: relative;
 }
@@ -322,6 +321,7 @@ h2 {
 #about-us .container div:last-child {
     box-sizing: border-box;
     padding-left: 80px;
+    margin-left: 50%;
 }
 
 #about-us .container div:last-child h2 {
@@ -352,7 +352,6 @@ h2 {
 }
 
 #pricing-table {
-    height: 900px;
     margin: 0;
     background-color: #e7edf3;
 }
@@ -361,6 +360,7 @@ h2 {
     text-align: center;
     width: 1200px;
     margin: 0 auto;
+    padding-bottom: 675px;
 }
 #pricing-table .container h2 {
     padding-top: 130px;
@@ -488,8 +488,8 @@ h2 {
 }
 
 #how-it-works {
-    height: 860px;
     background-color: #fff;
+    padding-bottom: 130px;
 }
 
 #how-it-works .container {
@@ -553,8 +553,8 @@ h2 {
 }
 
 #happy-clients {
-    height: 910px;
     background-color: #ffc155;
+    padding-bottom: 135px;
 }
 
 #happy-clients .container {
@@ -633,7 +633,6 @@ h2 {
 }
 
 #contact-us {
-    height: 950px;
     background-color: #fff;
 }
 
@@ -735,13 +734,9 @@ h2 {
     margin-left: -25px;
 }
 
-#footer {
-    height: 280px;
-}
-
 #footer .container-footer footer ul.menu {
     text-align: center;
-    padding: 70px 0 0;
+    padding: 54px 0 0;
     float: none;
 }
 
@@ -801,10 +796,10 @@ h2 {
 }
 
 #copyright {
-    height: 45px;
     background-color: #709dca;
     margin-top: 39px;
     text-align: center;
+    padding-bottom: 1px;
 }
 
 #copyright p {
