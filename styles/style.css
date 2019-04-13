@@ -808,3 +808,156 @@ h2 {
     font-size: 13px;
     color: #fff;
 }
+
+@media screen and (min-width:679px) and (max-width:1200px) {
+    #top-section {
+        padding: 15px 0;
+    }
+
+    .container-header {
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .container-header header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    .container-header header img {
+        margin-left: 15px;
+    }
+
+    .menu__item {
+        display: inline-block;
+        padding: 0 5px 5px;
+        border-radius: 4px;
+        transition: background-color 0.2s linear;
+    }
+
+    .menu {
+        list-style-type: none;
+        float: none;
+        margin: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .menu__link {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    #home .container p {
+        text-align: center;
+        font-size: 14px;
+
+    }
+
+    #home .container form {
+        width: 580px;
+        padding-bottom: 328px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #home .container form div {
+        margin-bottom: 10px;
+    }
+
+    .main-form__input__field {
+        margin: 0;
+    }
+
+    .main-form__button {
+        width: 280px;
+    }
+
+    #service .container {
+        width: 679px;
+        margin: 0 auto;
+        padding-bottom: 73px;
+    }
+
+    .list-container__list-item {
+        width: 695px;
+    }
+
+    #about-us {
+        background-image: url(../img/about-us/about-us.png);
+        background-size: cover;
+    }
+
+    #about-us .container {
+        width: auto;
+        padding: 0;
+    }
+
+    #about-us div div:first-of-type {
+        display: none;
+    }
+
+    #about-us .container div:last-child {
+        width: auto;
+        display: inline-block;
+        margin: 0 auto;
+        padding: 0 150px 207px;
+        background: rgba(15, 15, 15, 0.35);
+    }
+
+    #about-us .container div:last-child h2 {
+        text-align: left;
+    }
+
+    #pricing-table .container {
+        text-align: center;
+        width: auto;
+        margin: 0 auto;
+        padding-bottom: 205px;
+        box-sizing: border-box;
+    }
+
+    #plan-card-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0 30px;
+    }
+
+    .plan-card {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        width: 350px;
+        height: 440px;
+        background-color: #fff;
+        text-transform: uppercase;
+        border: 1px solid #ccd5df;
+        border-radius: 4px;
+        padding: 55px 30px;
+        transition: background-color 0.1s linear;
+    }
+
+    .plan-card:hover {
+        background-color: #709dca;
+        width: 350px;
+        height: 440px;
+        margin-top: 30px;
+        margin-left: -2px;
+        padding-top: 55px;
+    }
+
+    .plan-card__plan-button {
+        width: auto;
+    }
+
+    #plan-card-container .plan-card:nth-child(n) {
+        top: 0;
+        left: 0;
+    }
+}
