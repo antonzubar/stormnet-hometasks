@@ -177,6 +177,10 @@ h1 {
     bottom: -118px;
 }
 
+#mobile-laptop {
+    display: none;
+}
+
 .gallery-image {
     position: absolute;
     top: 50%;
@@ -919,6 +923,7 @@ h2 {
     }
 
     #pricing-table .container {
+        overflow: hidden;
         text-align: center;
         width: auto;
         margin: 0 auto;
@@ -1027,6 +1032,282 @@ h2 {
         background-size: contain;
         background-repeat: no-repeat;
         padding-bottom: 562px;
+    }
+
+    #dotted-map {
+        display: none;
+    }
+
+    #footer ul {
+        display: block;
+    }
+
+    #copyright {
+        width: auto;
+    }
+}
+
+@media screen and (max-width:678px) {
+    .container {
+        width: auto;
+    }
+
+    #top-section {
+        padding: 15px 0;
+    }
+
+    .container-header {
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .container-header header {
+        padding: 0;
+    }
+
+    .container-header header img {
+        margin: 0 auto;
+        display: block;
+
+    }
+
+    .menu__item {
+        display: inline-block;
+        padding: 0 5px 5px;
+        border-radius: 4px;
+        transition: background-color 0.2s linear;
+    }
+
+    .menu {
+        list-style-type: none;
+        float: none;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 10px 10px 0 20px;
+    }
+
+    .menu__link {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 32px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #home .container p {
+        text-align: center;
+        font-size: 14px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #home .container form {
+        width: 300px;
+        padding-bottom: 120px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+
+    #home .container form div {
+        margin-bottom: 10px;
+    }
+
+    .main-form__input__field {
+        margin: 0;
+    }
+
+    .main-form__button {
+        width: 280px;
+    }
+
+    #desktop-laptop {
+        display: none;
+    }
+
+    #laptop-holder {
+        margin: 0 auto;
+    }
+
+    #mobile-laptop {
+        display: inline-block;
+        margin-left: -167px;
+    }
+
+    .gallery-slider {
+        display: none;
+    }
+
+    #service .container {
+        width: 300px;
+        margin: 0 auto;
+        padding-bottom: 73px;
+    }
+
+    .list-container {
+        margin-top: 30px;
+    }
+
+    .list-container__list-item {
+        width: 295px;
+    }
+
+    .list-container__list-item:nth-child(n) {
+        padding-right: 0;
+    }
+
+    #about-us {
+        background-image: url(../img/about-us/about-us.png);
+        background-size: cover;
+    }
+
+    #about-us .container {
+        width: auto;
+        padding: 0;
+    }
+
+    #about-us div div:first-of-type {
+        display: none;
+    }
+
+    #about-us .container div:last-child {
+        width: auto;
+        display: inline-block;
+        margin: 0 auto;
+        padding: 0 50px 207px;
+        background: rgba(15, 15, 15, 0.35);
+    }
+
+    #about-us .container div:last-child h2 {
+        text-align: left;
+    }
+
+    #pricing-table .container {
+        overflow: hidden;
+        text-align: center;
+        width: auto;
+        margin: 0 auto;
+        padding-bottom: 205px;
+        box-sizing: border-box;
+    }
+
+    #plan-card-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+    }
+
+    .plan-card {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        width: 100%;
+        height: 440px;
+        background-color: #fff;
+        text-transform: uppercase;
+        border: 1px solid #ccd5df;
+        border-radius: 4px;
+        padding: 55px 30px;
+        transition: background-color 0.1s linear;
+        margin-left: -7px;
+    }
+
+    .plan-card:hover {
+        background-color: #709dca;
+        width: 100%;
+        height: 440px;
+        margin-top: 30px;
+        padding-top: 55px;
+        margin-left: -7px;
+    }
+
+    .plan-card__plan-button {
+        width: auto;
+    }
+
+    #plan-card-container .plan-card:nth-child(n) {
+        top: 0;
+        left: 0;
+    }
+
+    #how-it-works {
+        padding-bottom: 70px;
+    }
+
+    #how-it-works .container div {
+    }
+
+    .step-card {
+        display: inline-block;
+        width: 260px;
+        box-sizing: border-box;
+        padding: 0 ;
+        margin-top: 30px;
+    }
+
+    .step-card__step-arrow {
+        display: none;
+    }
+
+    #happy-clients .container {
+        width: auto;
+    }
+
+    .review-card__author-image {
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .review-card:nth-child(n) {
+        width: auto;
+        display: block;
+        margin: 0 10px 10px;
+        padding: 18px 25px 38px 25px;
+        box-sizing: content-box;
+        height: auto;
+        text-align: center;
+    }
+
+    #contact-us .container {
+        width: 100%;
+    }
+
+    #contact-us .container .secondary-form {
+        width: 300px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        padding-bottom: 20px;
+    }
+
+    .secondary-form .main-form__input-holder:nth-child(n) .main-form__input__field {
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .secondary-form .main-form__button-holder {
+        align-self: center;
+    }
+
+    #contact-us-container {
+        width: 90%;
+        margin: 0 auto;
+        background-image: url(../img/contact-us/map.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-bottom: 362px;
+    }
+
+    #contact-us-container #pin-image {
+        margin-top: -180px;
     }
 
     #dotted-map {
