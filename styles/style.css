@@ -542,8 +542,8 @@ h2 {
     transform: rotate(180deg);
 }
 
-.step-card:nth-child(6) .step-card__step-arrow {
-    display: none;
+.step-card:last-child img:last-of-type {
+    display:none;
 }
 
 #how-it-works .container button {
@@ -959,5 +959,37 @@ h2 {
     #plan-card-container .plan-card:nth-child(n) {
         top: 0;
         left: 0;
+    }
+
+    #how-it-works {
+        padding-bottom: 70px;
+    }
+
+    #how-it-works .container div {
+    }
+
+    .step-card {
+        display: inline-block;
+        width: 400px;
+        box-sizing: border-box;
+        padding: 0 90px;
+        margin-top: 30px;
+    }
+
+    .step-card__step-arrow {
+        display: none;
+    }
+
+    #happy-clients .container {
+        width: auto;
+    }
+
+    .review-card:nth-child(n) {
+        width: 70%;
+        display: block;
+        margin: 0 auto 10px;
+        padding: 18px 25px 38px 145px;
+        box-sizing: content-box;
+        height: auto;
     }
 }
