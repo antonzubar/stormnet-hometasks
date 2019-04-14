@@ -810,6 +810,10 @@ h2 {
 }
 
 @media screen and (min-width:679px) and (max-width:1200px) {
+    .container {
+        width: auto;
+    }
+
     #top-section {
         padding: 15px 0;
     }
@@ -991,5 +995,49 @@ h2 {
         padding: 18px 25px 38px 145px;
         box-sizing: content-box;
         height: auto;
+    }
+
+    #contact-us .container {
+        width: 100%;
+    }
+
+    #contact-us .container .secondary-form {
+        width: 680px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        padding-bottom: 20px;
+    }
+
+    .secondary-form .main-form__input-holder:nth-child(n) .main-form__input__field {
+        width: 400px;
+        margin-bottom: 20px;
+    }
+
+    .secondary-form .main-form__button-holder {
+        align-self: center;
+    }
+
+    #contact-us-container {
+        width: 90%;
+        margin: 0 auto;
+        background-image: url(../img/contact-us/map.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-bottom: 562px;
+    }
+
+    #dotted-map {
+        display: none;
+    }
+
+    #footer ul {
+        display: block;
+    }
+
+    #copyright {
+        width: auto;
     }
 }
